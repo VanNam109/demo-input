@@ -1,25 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Box, Input } from "@chakra-ui/react";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Box w="100vw" h="var(--app-height)">
+      <Box px="1.5rem" pb="5rem" overflow="auto" h="100%">
+        <Box>Input</Box>
+        <Box height="300px"></Box>
+        <Box width="100%" pt="1rem" pb="3.0rem">
+          <Input
+            className="field"
+            p="0 1rem"
+            borderRadius="9px"
+            fontSize="1.2rem"
+            fontWeight="500"
+          />
+          {/* <input></input> */}
+        </Box>
+      </Box>
+    </Box>
   );
 }
 
