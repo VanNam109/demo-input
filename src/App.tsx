@@ -5,7 +5,7 @@ function App() {
   return (
     <Box w="100vw" h="var(--app-height)">
       <Box>Input</Box>
-      <Box height="300px"></Box>
+      <Box height="600px"></Box>
       <Input
         className="field"
         p="0 1rem"
