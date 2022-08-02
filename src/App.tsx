@@ -8,14 +8,15 @@ function App() {
         <Box>Input</Box>
         <Box height="300px"></Box>
         <Box width="100%" pt="1rem" pb="3.0rem">
-          <Input
-            className="field"
-            p="0 1rem"
-            borderRadius="9px"
-            fontSize="1.2rem"
-            fontWeight="500"
-          />
-          {/* <input></input> */}
+          <Box position="relative">
+            <Input
+              className="field"
+              p="0 1rem"
+              borderRadius="9px"
+              fontSize="1.2rem"
+              fontWeight="500"
+            />
+          </Box>
         </Box>
       </Box>
     </Box>
